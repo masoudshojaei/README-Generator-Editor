@@ -147,46 +147,46 @@ Any section not in the list above can be added dynamically. The app generates a 
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    README Generator & Editor                  │
+│                    README Generator & Editor                    │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ┌──────────────┐      ┌──────────────┐      ┌──────────────┐ │
-│  │   Welcome    │─────►│  New / Load  │─────►│   Section    │ │
-│  │    Screen    │      │   Choice     │      │  Selection   │ │
-│  └──────────────┘      └──────────────┘      └──────────────┘ │
+│  ┌──────────────┐      ┌──────────────┐      ┌──────────────┐   │
+│  │   Welcome    │─────►│  New / Load  │─────►│   Section    │   │
+│  │    Screen    │      │   Choice     │      │  Selection   │   │
+│  └──────────────┘      └──────────────┘      └──────────────┘   │
 │                                                       │         │
 │                                                       ▼         │
-│                                              ┌──────────────┐ │
-│                                              │   Compile    │ │
-│                                              │  (One-by-One)│ │
-│                                              └──────────────┘ │
+│                                              ┌──────────────┐   │
+│                                              │   Compile    │   │
+│                                              │  (One-by-One)│   │
+│                                              └──────────────┘   │
 │                                                       │         │
 │                              ┌────────────────────────┘         │
 │                              ▼                                  │
-│                     ┌──────────────┐                           │
-│                     │   Custom     │                           │
-│                     │   Sections?  │                           │
-│                     └──────────────┘                           │
+│                     ┌──────────────┐                            │
+│                     │   Custom     │                            │
+│                     │   Sections?  │                            │
+│                     └──────────────┘                            │
 │                              │                                  │
 │                              ▼                                  │
-│                     ┌──────────────┐                           │
-│                     │ Live Preview │◄────────────────────┐    │
-│                     │  (Rendered)  │                      │    │
-│                     └──────────────┘                      │    │
-│                              │                            │    │
-│                              ▼                            │    │
-│                     ┌──────────────┐    Edit / Refresh    │    │
-│                     │ Save / Copy  │──────────────────────┘    │
-│                     │   / Exit     │                           │
-│                     └──────────────┘                           │
+│                     ┌──────────────┐                            │ 
+│                     │ Live Preview │◄─────────────────────┐     │
+│                     │  (Rendered)  │                      │     │
+│                     └──────────────┘                      │     │
+│                              │                            │     │
+│                              ▼                            │     │
+│                     ┌──────────────┐    Edit / Refresh    │     │
+│                     │ Save / Copy  │──────────────────────┘     │
+│                     │   / Exit     │                            │
+│                     └──────────────┘                            │
 │                                                                 │
-│  ┌──────────────────────────────────────────────────────────┐ │
+│  ┌────────────────────────────────────────────────────────────┐ │
 │  │  Core Classes:                                             │ │
 │  │  • ReadmeBuilder    — Constructs markdown, manages sections│ │
-│  │  • ReadmeParser     — Parses existing .md into sections  │ │
-│  │  • MarkdownRenderer — Renders markdown to tkinter Text    │ │
-│  │  • ReadmeApp        — Main GUI controller & navigation   │ │
-│  └──────────────────────────────────────────────────────────┘ │
+│  │  • ReadmeParser     — Parses existing .md into sections    │ │
+│  │  • MarkdownRenderer — Renders markdown to tkinter Text     │ │
+│  │  • ReadmeApp        — Main GUI controller & navigation     │ │
+│  └────────────────────────────────────────────────────────────┘ │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
